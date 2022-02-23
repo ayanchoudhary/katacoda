@@ -1,0 +1,1 @@
+You have successfully completed the tutorial for setting up chaos-mesh in a kubernetes cluster.

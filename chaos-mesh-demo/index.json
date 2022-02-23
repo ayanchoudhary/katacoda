@@ -35,7 +35,7 @@
     "assets": {
       "client": [
         {
-          "file": "network-delay.yml",
+          "file": "network-delay.yaml",
           "target": "~/"
         }
       ]
@@ -44,7 +44,7 @@
   "environment": {
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "Dashboard", "port": 80}],
     "uilayout": "terminal"
   },
   "backend": {

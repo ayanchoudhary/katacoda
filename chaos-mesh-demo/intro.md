@@ -1,0 +1,1 @@
+This is a basic playground that displays the methods of creating a Kubernetes cluster and setting up chaos-mesh in the cluster.
