@@ -37,6 +37,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "minikube"
+    "imageid": "minikube:1.10.1"
   }
 }
