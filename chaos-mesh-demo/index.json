@@ -2,7 +2,7 @@
   "title": "Chaos Mesh Demo",
   "description": "Quiz Submission for LFX Mentorship",
   "difficulty": "Beginner",
-  "time": "30 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
@@ -18,11 +18,11 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Verify Installation and Execute Chaos Experiment",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Uninstall Chaos Mesh",
         "text": "step5.md"
       }
     ],
@@ -31,9 +31,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "network-delay.yml",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
+    "exclusionPatterns": ["*test", "./test/*", "./logs"],
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "terminal"
   },
   "backend": {
